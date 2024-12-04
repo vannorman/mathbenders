@@ -2,7 +2,9 @@ body{
 
     background-color: #f70;
     background-image: url(/static/img/grad1.png);
-    background-image: url(/static/img/mathsymbols.svg);
+    background-image: url(/static/img/symbols-bg.png);
+    background-size:35%;
+
 }
 #title{
     margin:0 auto;

@@ -25,8 +25,8 @@ body {
 }
 #logo {
     position:absolute;
-    width:80px;
-    height:80px;
+    width:67px;
+    height:67px;
     left:35px;
     background-size:100%;
     background-repeat:no-repeat;
@@ -35,16 +35,13 @@ body {
 #logoText {
     position:absolute;
     left:125px;
-    font-size:2.5em;
+    font-size:3.1em;
     line-height:65px;
     color:white;
     height:80px;
     top:5px;
-    font-family:Casual;
-    font-family:Iceland;
-    font-family:Arka;
-        text-shadow: -1px -1px 0 #ff002f, 1px -1px 0 #ff005e, -1px 1px 0 #ff005e, 1px 1px 0 #000000;
-/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    font-family:BalooPaaj;
+    text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 
@@ -52,9 +49,9 @@ body {
     margin:0 auto;
     text-align:center;
     position:relative;
-    top:calc(5% + 28px);
+    top: calc(85% - 125px);
     font-size:1.8em;
-    color:black;
+    color:white;
     font-family:Fahkwang-ExtraLight;
     font-family:Fredoka;
     font-weight:100;
@@ -192,6 +189,11 @@ a, a:visited, a:link, a:hover, a:active {
 @font-face {
     font-family: Arka;
     src: url('/static/fonts/Arka.ttf');
+}
+
+@font-face {
+    font-family: BalooPaaj;
+    src: url('/static/fonts/BalooPaaj.ttf');
 }
 
 
