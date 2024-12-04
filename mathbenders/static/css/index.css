@@ -1,0 +1,200 @@
+html {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    width:100%;
+    max-width:100%;
+    top:0;left:0;
+    transition: all 0.2s;
+}
+
+body {
+    position:relative;
+    font-family:Fahkwang-ExtraLight;
+    font-family:Fredoka;
+    margin:0;padding:0;
+    overflow-x:hidden;
+}
+#logoContainer {
+    position:relative;
+    left:0;
+    top:5%;
+    height:50px;
+    width:493px;
+    margin:0 auto;
+}
+#logo {
+    position:absolute;
+    width:80px;
+    height:80px;
+    left:35px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image:url('/static/img/logofade.png');
+}
+#logoText {
+    position:absolute;
+    left:125px;
+    font-size:2.5em;
+    line-height:65px;
+    color:white;
+    height:80px;
+    top:5px;
+    font-family:Casual;
+    font-family:Iceland;
+    font-family:Arka;
+        text-shadow: -1px -1px 0 #ff002f, 1px -1px 0 #ff005e, -1px 1px 0 #ff005e, 1px 1px 0 #000000;
+/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+
+#titleText {
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    top:calc(5% + 28px);
+    font-size:1.8em;
+    color:black;
+    font-family:Fahkwang-ExtraLight;
+    font-family:Fredoka;
+    font-weight:100;
+}
+#waitlist {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    top: calc(85% - 25px);
+    left: calc(50% - 180px);
+    font-size: 2em;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: center;
+    width: 360px;
+    height: 70px;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#waitlist:hover{
+    background-color:orange;
+    cursor:pointer;
+}
+
+#main {
+    width:100%;
+    position:fixed;
+    height:100%;
+    background-image:url('/static/img/splash.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+a, a:visited, a:link, a:hover, a:active {
+    color:#111;
+    text-decoration:none;
+}
+
+
+#inquireWithin {
+    position:fixed;
+    top:calc(100% - 60px);
+    margin:0 auto;
+    text-align:Center;
+    background:#fff6;
+    width:100%;
+    height:70px;
+    color:black;
+    font-size:1.3em;
+}
+
+.btn {
+    margin:0 auto;
+    text-align:center;
+    margin-top:7px;
+   -webkit-border-radius: 40px;
+     -khtml-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    width: 180px;
+    height:45px;
+    line-height:45px;
+    font-size:1.1em;
+    border: 2px solid black;
+    display:inline-block;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.btn a {    
+    display:block;
+    text-decoration: none;
+	background-color: #34b4eb;
+    color:white;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+
+.btn a:hover {
+    background-color:#55f;
+}
+@media screen and (max-width: 460px){
+    #logo {
+        width: 390px;
+        height:50px;
+    }
+    #inquireWithin {
+        top:calc(100% - 120px);
+        height:120px;
+    }
+    .btn {
+        display:block;
+        margin:10px auto;
+    }
+}
+@font-face {
+    font-family: Nunito;
+    src: url('/static/fonts/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: NunitoBold;
+    src: url('/static/fonts/Nunito-Bold.ttf');
+}
+@font-face {
+    font-family: Fahkwang-ExtraLight;
+    src: url('/static/fonts/Fahkwang-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url('/static/fonts/Iceland-Regular.ttf');
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url('/static/fonts/Fredoka.ttf');
+}
+
+@font-face {
+    font-family: LuckiestGuy;
+    src: url('/static/fonts/LuckiestGuy.ttf');
+}
+
+@font-face {
+    font-family: AkaDylan;
+    src: url('/static/fonts/AkaDylan.ttf');
+}
+
+@font-face {
+    font-family: Arka;
+    src: url('/static/fonts/Arka.ttf');
+}
+
+
+
+
+

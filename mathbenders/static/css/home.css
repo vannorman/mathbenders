@@ -1,0 +1,95 @@
+body, html, * {
+    margin:0;padding:0;border:0;
+}
+
+/* NAV */
+#topNav {
+    position:absolute;
+    top:0;
+    height:56px;
+    width:100%;
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,153,255,1) 0%, rgba(1,165,219,1) 100%); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,121,51,1) 0%, rgba(255,188,47,1) 55%); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,188,47,1) 0%, rgba(255,121,51,1) 55%) ;
+    border-bottom:2px solid black;
+}
+
+#topNav ul {
+    position:absolute;
+    right:-20px;
+    list-style-type:none;
+    display:inline-block;
+    margin-right:40px;
+}
+
+ul li {
+    display:inline-block;
+    width:100px;
+    height:40px;
+    background-color:white;
+    line-height:40px;
+    font-size:1.2em;
+    margin-top:6px;
+    font-weight:bold;
+    font-family:Nunito;
+    text-align:center;
+    transition:all 0.3s;
+
+}
+
+ul li:hover{
+    background-color:#7af;
+    cursor:pointer;
+}
+
+/* BODY */
+
+#logoContainer {
+    position:absolute;
+    left:0;
+    top:0;
+    height:50px;
+    width:600px;
+}
+#logo {
+    position:absolute;
+    width:60px;
+    height:60px;
+    left:65px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image:url('/static/img/e-e.png');
+}
+#logoText {
+    position:absolute;
+    left:129px;
+    font-size:2.5em;
+    line-height:65px;
+    color:black;
+    height:65px;
+    font-family:Casual;
+    font-family:Iceland;
+/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+#main{
+    background:#9bf;
+    width:100%;
+    height:100%;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('/static/fonts/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: NunitoBold;
+    src: url('/static/fonts/Nunito-Bold.ttf');
+}
+@font-face {
+    font-family: Iceland;
+    src: url('/static/fonts/Iceland-Regular.ttf');
+}
+
+
